@@ -3,6 +3,8 @@ html,body{
     
     background-color: #2F4F30;
     color: white;
+    height: auto;
+
     
 }
 .titulo{
@@ -15,6 +17,7 @@ html,body{
 
 #general{
     width: 80%;
+    height: 70%;
     margin-left: 120px;
     /* text-align: center; */
 }
@@ -30,8 +33,10 @@ html,body{
 }
 
 #cartas_jugador, #cartas_computadora{
-    height: 240px;
+    height: 10%px;
 }
+
+
 
 .footer{
     
@@ -41,18 +46,25 @@ html,body{
     color: white;
     font-size: 15px;
     padding: 10px;
-    margin-top: 110px;
+    margin-top: 111px;
     height: 50px;
 }
 
 .espacio{
-    height: 310px;
+    height: 255px;
 }
 
 @media (max-width: 670px) {
     header,footer{
         width: 104%;
         
+    }
+    .footer{
+        margin-top: auto;
+    }
+    #general{
+        height: 87%;
+
     }
 }
 
@@ -77,20 +89,20 @@ html,body{
     }
     #general{
         width: 60%;
-        height: 520px;
+        height: 62%;
         
     }
     .footer{
         
-        margin-top: 220px;
-        height: 100%;
+        margin-top: 230px;
+        width: 104%;
     }
 }
 @media (max-width: 420px) {
    
     #general{
         width: 60%;
-        height: 520px;
+        height: 62%;
         
     }
     .espacio{
